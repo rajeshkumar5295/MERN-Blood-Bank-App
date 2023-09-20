@@ -1,0 +1,36 @@
+.sidebar{
+      height: 100vh !important;
+      background-color: #2e3200;
+      box-shadow: 0 0 2px gray;
+      color: white;
+}
+
+.menu{
+       padding-top:100px;
+}
+
+.menu-item{
+       padding-top: 30px;
+       margin-left: 20px;
+}
+
+.menu-item a{
+      text-decoration: none;
+}
+
+.menu-item i{
+      font-size: 15px;
+      margin: 0 15px;
+      color: white;
+      
+}
+.active{
+      color: white;
+      padding: 10px;
+      margin-top: 15px;
+}
+.active a,.active i{
+       color:brown;
+       /* color: white; */
+       
+}
